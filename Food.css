@@ -1,0 +1,68 @@
+body{
+    background: url("image (1).jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align:center;
+    
+   
+    
+    }
+    
+
+    
+    a{
+        color:blue;
+    }
+     @media screen and (min-width: 1024px) { 
+      
+            
+            .container{
+               display:flex;
+               justify-items: space-between;
+               flex-flow:column wrap;
+               
+            }
+        
+            img{
+                object-fit:cover;
+            }
+            }
+    
+      @media screen and (min-width: 1024px) { 
+      
+            
+            .container{
+               display:flex;
+               justify-items: space-between;
+               flex-flow:column wrap;
+               
+            }
+            /* just to ensure image covers */
+            img{
+                object-fit:cover;
+            }
+            }
+    
+
+            @media screen and (max-width: 380px) { 
+      
+            
+                /* .container{
+                   display:flex;
+                   justify-items: space-between;
+                   flex-flow:column wrap;
+                   
+                } */
+            /* Text turns blue one mobile */
+            h1,h2,h3{
+                color:blue;
+            }
+                img{
+                    object-fit:cover;
+                }
+                }
+      
+   
+      

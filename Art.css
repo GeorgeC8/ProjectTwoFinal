@@ -1,0 +1,47 @@
+body{
+    background: url("image.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display:grid;
+    
+    }
+    /* .container{
+        display:flex;
+        
+    } */
+    
+    
+    a{
+        color:blue;
+    }
+    @media screen and (min-width: 1024px) {
+        /* I decided a flex column set up is the easiest in this case */
+        .container{
+            display:flex;
+            flex-direction:column;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+       body{
+        text-align:center;
+       }
+      }
+     
+      @media screen and (max-width: 380px) {
+        /* I decided a flex column set up is the easiest in this case */
+        /* .container{
+            display:flex;
+            flex-direction:column;
+            flex-wrap:wrap; 
+            justify-content:start;
+        } */
+       body{
+        text-align:center;
+       }
+       h1,h2,h3{
+        color:blue;
+    }
+      }

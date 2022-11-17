@@ -1,0 +1,50 @@
+body{
+    background: url("image (2).jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align:center;
+    
+    }
+    .container{
+        display:grid;
+    }
+    
+    
+    a{
+        color:blue;
+    }
+    @media screen and (min-width: 1024px) {
+    .container1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 
+        15px;
+    }
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+      }
+
+      @media screen and (max-width: 380px) {
+        .container1{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+           /* condense it for mobile */
+            grid-gap: 
+            15px;
+        }
+        .gallery__img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        /* mobile feature */
+        h1,h2,h3{
+            color:blue;
+        }
+          }

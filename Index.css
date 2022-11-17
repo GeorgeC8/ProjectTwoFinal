@@ -1,0 +1,42 @@
+body{
+background: url("387606063_408c203f6c_b.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+text-align:center;
+
+}
+
+.stats{
+  color:lightsalmon;
+}
+
+a{
+    color:blue;
+}
+em{color:red;}
+form{
+color:aquamarine;
+}
+footer{color:lightslategray;
+}
+nav{
+  margin-top:350px;
+}
+
+table, th, td {
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 380px) {
+ /* On mobile, the heading turns light blue and the subheading turns light green */
+ h1{
+  color:lightblue;
+ }
+ h2{
+  color:lightgreen;
+ }
+  }
